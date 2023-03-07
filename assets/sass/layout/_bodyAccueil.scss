@@ -1,3 +1,11 @@
+.ti-check:before {
+  content: "\e64c";
+}
+
+.ti-close:before {
+  content: "\e646";
+}
+
 body {
   width: 100%;
 }
@@ -351,36 +359,113 @@ main {
 }
 
 .options {
-  padding: 100px;
+  display: flex;
+  justify-content: space-evenly;
   width: 100%;
   background-color: $color-grisclair;
+}
 
-  .title {
-    width: 30%;
+.title,
+.title2,
+.title3 {
+  width: 20%;
+
+  h1 {
+    font-family: $font-secondary;
+    color: #f1f1f1;
   }
 
-  img {
-    object-fit: contain;
+  p {
+    color: $color-gris;
   }
+}
 
-  .info2 {
-    display: flex;
-    gap: 10px;
-  }
+img {
+  object-fit: contain;
+}
 
-  .info-tel {
-    margin-left: 10px;
+.info2 {
+  display: flex;
+  gap: 10px;
+}
+
+.info-tel {
+  margin-left: 10px;
+}
+
+
+.info-tel2 {
+
+  p {
+    color: $color-gold;
+    margin: 0;
+    font-size: 30px;
+    font-family: $font-secondary;
   }
 
   h5 {
-    font-size: 12px;
     color: $color-gris;
     margin: 0;
+    font-size: 20px;
   }
 
-  .info-tel2 p {
-    color: $color-gold;
+}
+
+.title {
+  font-size: 20px;
+
+  h1 {
+    font-size: 50px;
     margin: 0;
   }
+}
 
+.title2,
+.title3 {
+  background-color: $color-grisclairclair;
+  padding: 30px;
+
+  span {
+    color: $color-gold;
+    font-size: 40px;
+    font-family: $font-secondary;
+    font-weight: lighter;
+  }
+
+  li {
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 50px;
+    color: $color-gris;
+  }
+
+  .ti-check {
+    margin-right: 20px;
+    color: $color-gold;
+  }
+
+  .ti-close {
+    margin-right: 20px;
+    color: $color-gris;
+  }
+}
+
+.moreservice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: $color-grisclair;
+}
+
+.lineOne {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lineTwo {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
