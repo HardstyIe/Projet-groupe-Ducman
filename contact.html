@@ -14,53 +14,45 @@
     <img src="assets/images/menu-burger.png" alt="Ouvrir le menu" id="openmenu" />
 
     <aside>
-      <div class="sidebar">
-        <div class="regroupement">
+      <div class="sidebar sticky">
+        <div class="nav-header">
           <div class="star">
-            <img draggable="false" src="assets/images/star.png" alt="" />
-            <img draggable="false" src="assets/images/star.png" alt="" />
-            <img draggable="false" src="assets/images/star.png" alt="" />
-            <img draggable="false" src="assets/images/star.png" alt="" />
-            <img draggable="false" src="assets/images/star.png" alt="" />
+            <img draggable="false" src="assets/images/star.png" alt="">
+            <img draggable="false" src="assets/images/star.png" alt="">
+            <img draggable="false" src="assets/images/star.png" alt="">
+            <img draggable="false" src="assets/images/star.png" alt="">
+            <img draggable="false" src="assets/images/star.png" alt="">
           </div>
-          <h1 class="duc">DUCSMAN</h1>
+          <h1>DUCSMAN</h1>
           <p>DORMEZ COMME JAMAIS</p>
         </div>
-
         <nav>
           <ul>
             <li>
-              <a href="">ACCUEIL</a>
+              <a href="#">ACCUEIL</a>
             </li>
-
             <li>
-              <a href="">À PROPOS</a>
+              <a href="#">A PROPOS</a>
             </li>
-
             <li>
-              <a href="">CHAMBRES & SUITES</a>
+              <a href="#">CHAMBRES & SUITES</a>
             </li>
-
             <li>
-              <a href="">RESTAURANT</a>
+              <a href="#">RESTAURANT</a>
             </li>
-
             <li>
-              <a href=""> CENTRE DE BIEN-ÊTRE </a>
+              <a href="#">CENTRE DE BIEN-ÈTRES</a>
             </li>
-
             <li>
-              <a href="">ACTUALITÉ</a>
+              <a href="#">ACTUALITÉ</a>
             </li>
-
             <li>
-              <a href="">CONTACT</a>
+              <a href="#">CONTACT</a>
             </li>
           </ul>
         </nav>
-
         <div class="info">
-          <img draggable="false" src="assets/images/phone.png" alt="" />
+          <img draggable="false" src="assets/images/phone.png" alt="">
           <div class="info-tel">
             <h5>Informations & Réservations</h5>
             <p>03 20 01 02 03</p>
@@ -109,40 +101,22 @@
           <div class="titreh3">
             <h3>Restons en contact</h3>
           </div>
-          <fieldset>
-            <div class="blocform">
-              <div class="two">
-                <div class="form1">
-                  <label for="nom">Votre nom: </label><br>
-                  <input type="text" name="nom" id="nom" size="30" maxlength="20" />
-                </div>
-
-                <div class="form2">
-                  <label for="email">Votre Email: </label><br>
-                  <input type="email" name="email" id="email" size="30" maxlength="30" />
-                </div>
+          <div class="blocform">
+            <fieldset>
+              <div class="text-email">
+                <input type="text" name="nom" id="nom" size="30" maxlength="20" placeholder="Votre Nom *" />
+                <input type="email" name="email" id="email" size="30" maxlength="30" placeholder="Votre Email *" />
               </div>
-
-              <div class="three">
-                <div class="form3">
-                  <label for="tel">Numéro de téléphone</label><br>
-                  <input type="tel" name="tel" id="tel" size="30" maxlength="10" />
-                </div>
-
-                <div class="form4">
-                  <label for="sujet">Sujet:</label><br>
-                  <input type="text" name="sujet" id="sujet" size="30" maxlength="30" />
-                </div>
+              <div class="tel-text">
+                <input type="tel" name="tel" id="tel" size="30" maxlength="10"
+                  placeholder="Votre Numero de téléphone *" />
+                <input type="text" name="sujet" id="sujet" size="30" maxlength="30" placeholder="Sujet *" />
               </div>
-
-              <div class="form5">
-                <label for="msg">Votre Message:</label><br>
-                <textarea name="msg" id="msg" rows=""></textarea>
-              </div>
-            </div>
-            <div class="form6">
-              <input type="submit" value="ENVOYER" />
-            </div>
+              <textarea name="msg" id="msg" rows="5" placeholder="Votre Message *"></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="ENVOYER" id="submit" />
+          </div>
           </fieldset>
         </div>
       </div>
@@ -171,9 +145,10 @@
 
         <div class="bloc8">
           <h3>Contact</h3>
-          <p>23 avenue des Nations Unies 75001 Paris</p>
-          <img class="logotel" draggable="false" src="assets/images/phone2.png" alt="" />
-          <p>03 20 01 02 03</p>
+          <p>23 avenue des Nations Unies</p>
+          <p>75001 Paris</p>
+          <p><img class="logotel" draggable="false" src="assets/images/phone2.png" alt="" /><span>03 20 01 02 03</span>
+          </p>
           <a href="">info@ducsman.com</a>
           <img class="reseaux" draggable="false" src="assets/images/logos.png" alt="" />
         </div>

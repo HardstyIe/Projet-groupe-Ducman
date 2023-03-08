@@ -22,7 +22,6 @@ textarea {
   color: aliceblue;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100vh;
 }
 
@@ -34,25 +33,6 @@ textarea {
   z-index: 10000;
 }
 
-nav {
-  ul {
-    margin-top: 30px;
-  }
-
-  li {
-    list-style: none;
-    margin: 20px 0;
-    font-size: 12px;
-    text-decoration: none;
-  }
-
-  a {
-    color: $color-gris;
-    text-decoration: none;
-
-  }
-}
-
 /* a:hover est utilisé pr mettre une couleur sur l'ensemble des liens lorsque l'utilisateur
  survole avec la souris */
 
@@ -60,19 +40,12 @@ a:hover {
   color: $color-gold;
 }
 
-h1 {
-  font-family: 'Gilda Display', serif;
-}
-
 h3 {
   color: aliceblue;
-  font-family: 'Gilda Display', serif;
-
 }
 
 .duc {
   color: $color-gold;
-
 }
 
 main {
@@ -89,26 +62,18 @@ main {
 
 .bloc2 {
   display: flex;
-  flex-direction: row;
-  margin-left: 80px;
-  gap: 1px;
-
+  justify-content: space-around;
 }
 
 .bloc3 {
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
 
 .bloc4 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 10px;
-  margin-left: 300px;
-  margin: 1px auto;
   border-radius: 4px;
-  width: auto;
+  width: 40%;
 }
 
 .bloc5 {
@@ -124,22 +89,24 @@ main {
   color: rgb(225, 225, 225);
   display: flex;
   flex-direction: row;
-  margin-left: 70px;
   gap: 1px;
-
+  padding: 100px;
+  justify-content: space-around;
 }
 
 .bloc7 {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
+  width: 40%;
+  line-height: 30px;
 }
 
 .bloc8 {
   display: flex;
   flex-direction: column;
-  margin-left: 500px;
-  justify-content: start;
+  width: 40%;
+
+  span {
+    font-size: 20px;
+  }
 }
 
 .logo2 {
@@ -195,17 +162,8 @@ iframe {
   display: flex;
   margin-top: 50px;
   flex-direction: column;
-  align-items: center;
   gap: 10px;
 
-}
-
-nav {
-  display: flex;
-  margin-top: 50px;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
 }
 
 .info-contact {
@@ -244,6 +202,9 @@ nav {
 
 .blocform {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .form1 {
@@ -267,13 +228,6 @@ nav {
   background: $color-gold;
   border: none;
 }
-
-.titreh3 h3 {
-  text-align: center;
-  margin-bottom: 50px;
-  margin-right: 200px;
-}
-
 
 .email {
   display: flex;
@@ -332,7 +286,35 @@ nav {
 }
 
 fieldset {
+  margin: 0;
   border: none;
-  gap: 30px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 20px;
+
+  input {
+    background: transparent;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid rgb(66, 66, 66);
+  }
+
+  textarea {
+    background: transparent;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(66, 66, 66);
+  }
+}
+
+#submit {
+  background-color: $color-gold;
+  padding: 10px 20px;
+  color: #f1f1f1;
+  width: fit-content;
+}
+
+.text-email {
   width: 100%;
 }
