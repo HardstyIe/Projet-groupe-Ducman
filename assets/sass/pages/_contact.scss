@@ -3,355 +3,336 @@
 
 
 body {
-    font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
-
-
 aside {
-    height: auto;
-    width: 300px;
-    background-color: $background-sidebar;
-    max-width: 100%;
+  height: auto;
+  width: 300px;
+  background-color: $background-sidebar;
+  max-width: 100%;
 }
 
 input,
 textarea {
-    color: $color-gris;
-
+  color: $color-gris;
 }
-
 
 .sidebar {
-    color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
-
-
 
 #openmenu {
-    display: none;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    z-index: 10000;
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 10000;
 }
 
-
-
 nav {
-    ul {
-        margin-top: 30px;
+  ul {
+    margin-top: 30px;
+  }
 
-    }
+  li {
+    list-style: none;
+    margin: 20px 0;
+    font-size: 12px;
+    text-decoration: none;
+  }
 
+  a {
+    color: $color-gris;
+    text-decoration: none;
 
-    li {
-        list-style: none;
-        margin: 20px 0;
-        font-size: 12px;
-        text-decoration: none;
-    }
-
-
-    a {
-        color: $color-gris;
-        text-decoration: none;
-
-    }
+  }
 }
 
 /* a:hover est utilisé pr mettre une couleur sur l'ensemble des liens lorsque l'utilisateur
  survole avec la souris */
 
 a:hover {
-    color: $color-gold;
+  color: $color-gold;
 }
-
-
 
 h1 {
-    font-family: 'Gilda Display', serif;
+  font-family: 'Gilda Display', serif;
 }
-
-
 
 h3 {
-    color: aliceblue;
-    font-family: 'Gilda Display', serif;
+  color: aliceblue;
+  font-family: 'Gilda Display', serif;
 
 }
-
-
 
 .duc {
-    color: $color-gold;
+  color: $color-gold;
 
 }
-
-
 
 main {
-    display: flex;
+  display: flex;
 }
-
 
 .bloc1 {
-    background-color: $color-grisclair;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    color: $color-gris;
+  background-color: $color-grisclair;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: $color-gris;
 }
-
-
 
 .bloc2 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 80px;
-    gap: 1px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  gap: 1px;
 
 }
-
-
 
 .bloc3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
-    text-align: justify;
-    gap: 1px;
-
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 .bloc4 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-    margin-left: 300px;
-    margin: 1px auto;
-    border-radius: 4px;
-    width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  margin-left: 300px;
+  margin: 1px auto;
+  border-radius: 4px;
+  width: auto;
 }
-
-
-
 
 .bloc5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
 }
-
-
-
 
 .bloc6 {
-    color: rgb(225, 225, 225);
-    display: flex;
-    flex-direction: row;
-    margin-left: 70px;
-    gap: 1px;
+  color: rgb(225, 225, 225);
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+  gap: 1px;
 
 }
 
-
 .bloc7 {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
 
 .bloc8 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 500px;
-    justify-content: start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+  justify-content: start;
 }
-
-
-
 
 .logo2 {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 
 }
 
-
-
 .logo3 {
-    width: 45px;
-    height: 45px;
+  width: 45px;
+  height: 45px;
 }
 
 
 .num1 {
-    color: $color-gold;
-    margin-left: 50px;
+  color: $color-gold;
+  margin-left: 50px;
 }
 
 .infore {
-    margin-left: 50px;
-
-
+  margin-left: 50px;
 }
 
 .emaill {
-    margin-left: 50px;
-
-}
-
-.adrsse {
-    margin-left: 50px;
+  margin: 0;
 }
 
 .or {
-    color: $color-gold;
-    margin-left: 50px;
+  color: $color-gold;
+  margin: 0;
+}
 
+iframe {
+  width: 80%;
 }
 
 .paris {
-    margin-left: 50px;
+  margin-left: 50px;
 }
-
 
 .logotel {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
-
 .reseaux {
-    width: 170px;
-    height: 30px;
+  width: 170px;
+  height: 30px;
 
 }
 
 .regroupement {
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 170px;
-    flex-direction: column;
-    margin-top: 50px;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 
 }
-
-
 
 nav {
-    display: flex;
-    margin-top: 50px;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
+.info-contact {
+  display: flex;
+  width: 100%;
 
+  img {
+    object-fit: contain;
+  }
 
-.info {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    align-items: center;
-    gap: 10px;
+  .info-tel-contact {
+    margin-left: 10px;
+  }
+
+  h5 {
+    font-size: 12px;
+    color: $color-gris;
+  }
+
+  p {
+    font-size: 20px;
+    margin-top: -20px;
+    color: $color-gold;
+  }
 
 }
-
 
 .two {
-    display: flex;
+  display: flex;
 
 }
 
 .three {
-    display: flex;
+  display: flex;
+}
+
+.blocform {
+  width: 100%;
 }
 
 .form1 {
-    display: flex;
-    flex-direction: column;
-    background: transparent;
-    border: white;
-}
-
-.form1 input {
-    background: transparent;
-}
-
-
-
-.form2 {
-    display: flex;
-}
-
-.form2 input {
-    background: transparent;
-}
-
-
-
-
-.form3 {
-    display: flex;
-}
-
-.form3 input {
-    background: transparent;
-
-}
-
-
-
-.form4 {
-    display: flex;
-}
-
-.form4 input {
-    background: transparent;
-}
-
-
-
-.form5 {
-    display: flex;
+  flex-direction: column;
+  background: transparent;
+  border: white;
 }
 
 .form5 textarea {
-    background: transparent;
-    border: none;
+  background: transparent;
+  border: 1px solid grey;
+  resize: none;
+  width: 100%;
 }
 
-
-
 .form6 {
-    display: flex;
+  display: flex;
 }
 
 .form6 input {
-    background: $color-gold;
-    border: none;
+  background: $color-gold;
+  border: none;
+}
+
+.titreh3 h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-right: 200px;
 }
 
 
+.email {
+  display: flex;
+  width: 100%;
 
-.titreh3 h3 {
-    text-align: center;
-    margin-bottom: 50px;
-    margin-right: 200px;
+  img {
+    object-fit: contain;
+  }
+
+  .info-email {
+    margin-left: 10px;
+  }
+
+  h5 {
+    font-size: 12px;
+    color: $color-gris;
+  }
+
+  p {
+    font-size: 20px;
+    color: $color-gold;
+  }
+
+}
+
+.adress {
+  display: flex;
+  width: 100%;
+
+  img {
+    object-fit: contain;
+  }
+
+  .info-adress {
+    margin-left: 10px;
+  }
+
+  h5 {
+    font-size: 12px;
+    color: $color-gris;
+  }
+
+  p {
+    font-size: 20px;
+    color: $color-gris;
+  }
+
+}
+
+.paris {
+  margin: 0;
+}
+
+.adresse {
+  margin: 0;
+}
+
+fieldset {
+  border: none;
+  gap: 30px 20px;
+  width: 100%;
 }
