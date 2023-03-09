@@ -48,7 +48,7 @@ aside{
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("assets/images/rooms/4.jpg");
+  background-image: url("images/rooms/4.jpg");
   background-position: center center;
   text-align: center;
   color: #ffffff;
@@ -106,7 +106,7 @@ aside{
 p{
     font-family: 'Barlow';
 }
-.ducsman {color: #c57205; }
+.ducsman {  color: #d47d0b}
 .flaticon-call:before {
 	content: '\f101';
 }
@@ -130,3 +130,12 @@ p{
     display: flex;
     justify-content: space-around;
 }
+
+.ti-star:before {
+	content: "\e60a";
+}
+.ti-star:before { color: #d47d0b;
+
+
+}
+
