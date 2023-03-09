@@ -573,10 +573,73 @@ img {
     padding: 20px 0;
   }
 
+
 }
 
 .mention {
   width: 100%;
+  min-height: 50px;
   display: flex;
-  background-color: $color-grisclair;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-grisclair2;
+  gap: 20px;
+
+  a {
+    color: #f1f1f1;
+  }
+
+  p {
+    color: #f1f1f1;
+    margin: 0;
+  }
+
+  .copyright2023 {
+    color: $color-gris;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    height: 15px;
+    margin-right: 10px;
+  }
+}
+
+.contact {
+
+
+  p {
+    color: $color-gris;
+  }
+
+  ul {
+    padding: 0;
+    line-height: 40px;
+
+    li {
+      color: #f1f1f1;
+
+      a {
+        text-decoration: underline;
+      }
+
+      i {
+        font-size: 25px;
+        margin-right: 10px;
+      }
+
+      span {
+        font-size: 25px;
+      }
+
+    }
+  }
+}
+
+.logo-page-chambre {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
 }
