@@ -9,6 +9,23 @@ h3 {
   margin: 0;
 }
 
+.colonne {
+  width: 100%;
+}
+
+.backdrop {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 30px 20px;
+  -webkit-backdrop-filter: brightness(0.7);
+  backdrop-filter: brightness(0.7);
+}
+
 .subtitle {
   letter-spacing: 5px;
   font-size: 16px;
@@ -17,6 +34,7 @@ h3 {
 
 .homepage {
   display: flex;
+  width: 100%;
 }
 
 .starbody img {
@@ -37,6 +55,8 @@ h3 {
   text-align: center;
   color: #ffffff;
   gap: 20px;
+  box-sizing: border-box;
+  backdrop-filter: brightness(1);
 
   a {
     border: 1px solid #ffffff;
@@ -62,7 +82,7 @@ h3 {
 }
 
 main {
-  width: 100%;
+  width: 80%;
 }
 
 .presentation {
@@ -74,7 +94,6 @@ main {
   p {
     line-height: 35px;
   }
-
 }
 
 .photo {
@@ -266,6 +285,7 @@ main {
 }
 
 .grid2 {
+  box-sizing: border-box;
   margin: 0;
   padding: 100px 100px;
   background-color: $color-grisclair;
@@ -282,14 +302,16 @@ main {
 }
 
 .grid2-photo {
+  height: 100%;
+  object-fit: cover;
   width: 100%;
 }
 
 .grid2-text {
+  box-sizing: border-box;
   line-height: 35px;
   height: 100%;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding: 20px;
   background-color: $color-grisclairclair;
 
   .gold {
@@ -313,7 +335,7 @@ main {
   }
 
   .lorem {
-    font-size: 25px;
+    font-size: 20px;
     color: $color-gris;
   }
 }
@@ -351,36 +373,288 @@ main {
 }
 
 .options {
-  padding: 100px;
+  display: flex;
+  justify-content: space-evenly;
   width: 100%;
   background-color: $color-grisclair;
+}
 
-  .title {
-    width: 30%;
+.title,
+.title2,
+.title3 {
+  width: 20%;
+
+  h1 {
+    font-family: $font-secondary;
+    color: #f1f1f1;
   }
 
-  img {
-    object-fit: contain;
+  p {
+    color: $color-gris;
   }
+}
 
-  .info2 {
-    display: flex;
-    gap: 10px;
-  }
+img {
+  object-fit: contain;
+}
 
-  .info-tel {
-    margin-left: 10px;
+.info2 {
+  display: flex;
+  gap: 10px;
+}
+
+.info-tel {
+  margin-left: 10px;
+}
+
+
+.info-tel2 {
+
+  p {
+    color: $color-gold;
+    margin: 0;
+    font-size: 30px;
+    font-family: $font-secondary;
   }
 
   h5 {
-    font-size: 12px;
     color: $color-gris;
     margin: 0;
+    font-size: 20px;
   }
 
-  .info-tel2 p {
+}
+
+.title {
+  font-size: 20px;
+
+  h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+}
+
+.title2,
+.title3 {
+  border-radius: 10px;
+  background-color: $color-grisclairclair;
+  padding: 50px 0 30px 70px;
+
+  span {
     color: $color-gold;
+    font-size: 40px;
+    font-family: $font-secondary;
+    font-weight: lighter;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 50px;
+    color: $color-gris;
+  }
+
+  .ti-check {
+    margin-right: 20px;
+    color: $color-gold;
+  }
+
+  .ti-close {
+    margin-right: 20px;
+    color: $color-gris;
+  }
+}
+
+.moreservice {
+  gap: 20px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  background-color: $color-grisclair;
+
+  h5 {
+    color: #f1f1f1;
+  }
+
+  p {
+    color: $color-gris;
+  }
+}
+
+.serviceh5 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.transfert,
+.parking,
+.room-service,
+.pool,
+.wifi,
+.breakfast {
+  padding: 30px;
+  border: 1px solid rgba(53, 53, 53, 0.4);
+  width: 30%;
+
+  h5 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+.lineOne {
+  gap: 30px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lineTwo {
+  gap: 30px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flaticon-bed,
+.flaticon-breakfast,
+.flaticon-car,
+.flaticon-swimming,
+.flaticon-wifi,
+.flaticon-world {
+  color: $color-gold;
+  font-size: 50px;
+}
+
+.apropos-contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: $color-grisclair;
+
+  .apropos {
+    max-width: 50%;
+    padding: 80px;
+
+    h5 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: lighter;
+      color: #f1f1f1;
+    }
+
+    p {
+      line-height: 30px;
+      color: $color-gris;
+    }
+  }
+
+  .contacts {
+    padding: 80px;
+    width: 600px;
+  }
+}
+
+.contacts {
+  color: #f1f1f1;
+
+  h5 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+  p {
+    gap: 10px;
+    display: flex;
+    color: $color-gris;
+  }
+
+  span {
+    color: #f1f1f1;
+    font-size: 30px;
+  }
+
+  .icon {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+
+}
+
+.mention {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-grisclair2;
+  gap: 20px;
+
+  a {
+    color: #f1f1f1;
+  }
+
+  p {
+    color: #f1f1f1;
     margin: 0;
   }
 
+  .copyright2023 {
+    color: $color-gris;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    height: 15px;
+    margin-right: 10px;
+  }
+}
+
+.contact {
+
+
+  p {
+    color: $color-gris;
+  }
+
+  ul {
+    padding: 0;
+    line-height: 40px;
+
+    li {
+      color: #f1f1f1;
+
+      a {
+        text-decoration: underline;
+      }
+
+      i {
+        font-size: 25px;
+        margin-right: 10px;
+      }
+
+      span {
+        font-size: 25px;
+      }
+
+    }
+  }
+}
+
+.logo-page-chambre {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
 }
