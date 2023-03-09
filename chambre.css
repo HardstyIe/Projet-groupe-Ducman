@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gilda+Display&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+html{
+    color : rgb(19, 18, 18) ;
+    font-family: 'Barlow', sans-serif;
+}
+h1{ 
+    font-family: 'Gilda Display', serif;
+}
+.room {
+    display: flex;
+}
+
+#open-menu {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10000;
+}
+
+.sidebar{
+    color: #f1f1f1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside{
+    background-color: #000000;
+    height: auto;
+    width: 300px;
+    max-width: 100%;
+}
+
+.coordonné {
+    display: flex;
+    justify-content: space-between ;
+}
+.slider{ 
+    border: 1px solid #000000;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("assets/images/rooms/4.jpg");
+  background-position: center center;
+  text-align: center;
+  color: #ffffff;
+  gap: 20px;
+  
+
+}
+
+
+.starpng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flaticon-group:before {
+	content: '\f10b';
+}
+
+.flaticon-wifi:before {
+	content: '\f136';
+}
+
+.flaticon-clock-1:before {
+	content: '\f12f';
+}
+
+.flaticon-serving-dish:before {
+	content: '\f13a';
+}
+
+.flaticon-towel:before {
+	content: '\f145';
+}
+.flaticon-swimming:before {
+	content: '\f126';
+}
+
+.Aménagements i{ color: #c57205;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.ti-check:before {
+	content: "\e64c";
+}
+.confirme {
+    display: flex;
+    
+    align-items: flex-start;
+}
+p{
+    font-family: 'Barlow';
+}
+.ducsman {  color: #d47d0b}
+.flaticon-call:before {
+	content: '\f101';
+}
+
+.ti-instagram:before {
+	content: "\e73d";
+}
+.ti-twitter:before {
+	content: "\e72a";
+}
+.ti-youtube:before {
+	content: "\e728";
+}
+.ti-facebook:before {
+	content: "\e741";
+}
+.ti-pinterest:before {
+	content: "\e731";
+}
+.end {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ti-star:before {
+	content: "\e60a";
+}
+.ti-star:before { color: #d47d0b;
+
+
+}
+
