@@ -76,7 +76,7 @@ h3 {
 }
 
 main {
-  width: 100%;
+  width: 80%;
 }
 
 .presentation {
@@ -88,7 +88,6 @@ main {
   p {
     line-height: 35px;
   }
-
 }
 
 .photo {
@@ -585,6 +584,7 @@ img {
 }
 
 .mention {
+  width: 100%;
   display: flex;
   background-color: $color-grisclair;
 }
