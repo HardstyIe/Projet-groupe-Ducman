@@ -697,3 +697,40 @@ img {
   width: 35%;
   justify-content: space-around;
 }
+
+
+
+
+
+@media all and (min-width: 768px) and (max-width: 1366px) {
+
+
+
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+
+.presentation {
+  padding: 20px;
+}
+.responsive-logo-tel-nav {
+  width: 30px;
+}
+.reservation {
+  padding: 5px;
+}
+.ducsman2 {
+  padding: 0px 20px 0px 20px;
+}
+.rooms {
+  padding: 0px;
+}
+.slider-texte{
+      h2 {
+  font-size: 25px;
+}
+.responsive-luxe {
+  margin-bottom: 20px;
+}
+  }
+}
