@@ -1,6 +1,9 @@
 main {
   background-color: $color-grisclair;
 }
+.responsive-logo-tel-nav {
+  width: 30px;
+}
 
 .slider2 {
   border: 1px solid #000000;
@@ -212,3 +215,163 @@ p {
     }
   }
 }
+
+
+@media all and (min-width: 768px) and (max-width: 1366px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .homepage {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  .text {
+    padding: 20px;
+  }
+
+  .div-text {
+    .Aménagements {
+      position: relative;
+      left: 35px;
+      width: 50%;
+    }
+  }
+
+
+  .in {
+    margin-left: 50px;
+    width: 50%;
+  }
+
+  .out {
+    width: 40%;
+  }
+
+  .confirme {
+    width: 100%;
+
+    ul {
+      width: 130%;
+    }
+  }
+
+  .check-in {
+    width: 100%;
+  }
+
+  .mention {
+    padding-left: 20px;
+    width: 96%;
+  }
+
+  .responsive-logo-tel-nav {
+    width: 30px;
+  }
+  .logo-page-chambre {
+    width: 55%;
+  }
+  .btnreservation {
+    margin-bottom: 40px;
+  }
+}
+
+
+
+  @media all and (min-width: 320px) and (max-width: 767px) {
+    body {
+      overflow-x: hidden;
+    }
+
+
+    .homepage {
+      h1 {
+        font-size: 40px;
+      }
+    }
+
+    .responsive-tel {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .div-text {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .end {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .text {
+      padding: 0px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .div-text-texte {
+      width: 150%;
+    }
+
+    .Aménagements {
+      width: 200%;
+    }
+
+    .text-hotel-fin {
+      width: 100%;
+    }
+
+    .check-in {
+      width: 100%;
+    }
+
+    .contact {
+      width: 100%;
+    }
+
+    p {
+      width: 100%;
+    }
+
+    .responsive-tel-texte {
+      width: 200%;
+    }
+
+    .confirme {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    ul {
+      width: 250%;
+    }
+
+    .mention {
+      padding-left: 20px;
+      padding-right: 10px;
+      width: 90%;
+
+      a {
+        font-size: 10px;
+      }
+
+      .droit-aut {
+        p {
+          font-size: 10px;
+        }
+      }
+    }
+
+
+      .responsive-logo-tel-nav {
+        width: 30px;
+      }
+
+
+  }
