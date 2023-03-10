@@ -111,7 +111,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 35%;
- 
+
 
   span {
     font-size: 20px;
@@ -131,7 +131,7 @@ main {
   height: 45px;
   position: relative;
   bottom: 8px;
- 
+
 }
 
 
@@ -210,6 +210,7 @@ iframe {
     margin-left: 5px;
 
   }
+
   .info-tel-contact {
     margin-left: 21px;
   }
@@ -350,65 +351,74 @@ fieldset {
 
 
 @media all and (min-width: 768px) and (max-width: 1366px) {
-  .bloc5 { 
+  .bloc5 {
     margin-left: 60px;
   }
 
- 
+
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) 
-{ 
+@media all and (min-width: 320px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .bloc1 {
     margin: auto;
     width: 90%;
   }
 
-  .bloc2 { 
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  } 
-.bloc3 { 
-  width: 100%;
-}
+  .bloc2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-.bloc4 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 45px;
-}
+  .bloc3 {
+    width: 100%;
+  }
 
-.text-email, .tel-text { 
-  display: flex;
-  flex-direction: column;
+  .bloc4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 45px;
+  }
 
-  input {
+  .text-email,
+  .tel-text {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      width: 90%;
+    }
+  }
+
+
+  .blocform {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bloc6 {
+    display: flex;
+    flex-direction: column;
     width: 90%;
   }
-}
+
+  .bloc7,
+  .bloc8 {
+    width: 100%;
+
+  }
+
+  .bloc5 {
+    margin-left: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
 
 
-.blocform {
-  display: flex;
-  flex-direction: row;
-}
 
-.bloc6 {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-}
-
-.bloc7, .bloc8 {
-  width: 100%;
-
-}
-
-.bloc5 { 
-  margin-left: 40px;
-  width: 100%;
-  margin-bottom: 15px;
-}
 }
