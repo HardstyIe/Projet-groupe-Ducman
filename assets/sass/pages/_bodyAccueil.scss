@@ -37,8 +37,13 @@ h3 {
   width: 100%;
 }
 
-.starbody img {
-  height: 20px;
+.starbody {
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 20px;
+  }
 }
 
 .slider {
@@ -47,23 +52,13 @@ h3 {
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-image: url("/assets/images/slider/2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  // align-items: center;
+  // background-image: url("/assets/images/slider/2.jpg");
   text-align: center;
   color: #ffffff;
   gap: 20px;
   box-sizing: border-box;
   backdrop-filter: brightness(1);
-
-  a {
-    border: 1px solid #ffffff;
-    padding: 10px;
-    text-decoration: none;
-    color: #ffffff;
-  }
 
   h2,
   pre {
@@ -73,7 +68,39 @@ h3 {
     letter-spacing: 10px;
     margin: 0;
   }
+
+  .slider-texte {
+    position: absolute;
+    font-family: Georgia;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+    a {
+      border: 1px solid #ffffff;
+      padding: 10px;
+      text-decoration: none;
+      color: #ffffff;
+      width: fit-content;
+      margin-top: 10px;
+      margin: auto;
+    }
+
+    .btn {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  img {
+    max-height: 100%;
+    object-fit: cover;
+  }
 }
+
 
 .hotel {
   font-size: 16px;
