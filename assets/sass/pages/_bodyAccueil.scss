@@ -20,7 +20,7 @@ h3 {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 30px 20px;
   -webkit-backdrop-filter: brightness(0.7);
   backdrop-filter: brightness(0.7);
@@ -258,7 +258,7 @@ main {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     padding: 30px 20px;
     -webkit-backdrop-filter: brightness(0.7);
     backdrop-filter: brightness(0.7);
