@@ -55,8 +55,19 @@ h3 {
   text-align: center;
   color: #ffffff;
   gap: 20px;
+  width: 100%;
   box-sizing: border-box;
-  backdrop-filter: brightness(1);
+
+
+  .backdropaccueil {
+    backdrop-filter: brightness(0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   a {
     border: 1px solid #ffffff;
@@ -72,6 +83,33 @@ h3 {
     font-family: $font-secondary;
     letter-spacing: 10px;
     margin: 0;
+  }
+
+  .slider-texte {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      padding: 20px 10px;
+      border: none;
+      background: transparent;
+
+    }
+
+    button:hover {
+      transform: scale(1.5);
+    }
+  }
+
+  #rightButton,
+  #leftButton {
+    background-color: rgba(97, 77, 51, 0.5);
+
   }
 }
 
