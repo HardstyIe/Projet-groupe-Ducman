@@ -37,13 +37,8 @@ h3 {
   width: 100%;
 }
 
-.starbody {
-  display: flex;
-  justify-content: center;
-
-  img {
-    height: 20px;
-  }
+.starbody img {
+  height: 15px;
 }
 
 .slider {
@@ -52,13 +47,34 @@ h3 {
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-  // align-items: center;
-  // background-image: url("/assets/images/slider/2.jpg");
+  align-items: center;
+  background-image: url("/assets/images/slider/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   text-align: center;
   color: #ffffff;
   gap: 20px;
+  width: 100%;
   box-sizing: border-box;
-  backdrop-filter: brightness(1);
+
+
+  .backdropaccueil {
+    backdrop-filter: brightness(0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
 
   h2,
   pre {
@@ -70,37 +86,32 @@ h3 {
   }
 
   .slider-texte {
-    position: absolute;
-    font-family: Georgia;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
+    width: 100%;
+  }
 
-    a {
-      border: 1px solid #ffffff;
-      padding: 10px;
-      text-decoration: none;
-      color: #ffffff;
-      width: fit-content;
-      margin-top: 10px;
-      margin: auto;
+  .btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      padding: 20px 10px;
+      border: none;
+      background: transparent;
+
     }
 
-    .btn {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
+    button:hover {
+      transform: scale(1.5);
     }
   }
 
-  img {
-    max-height: 100%;
-    object-fit: cover;
+  #rightButton,
+  #leftButton {
+    background-color: rgba(97, 77, 51, 0.5);
+
   }
 }
-
 
 .hotel {
   font-size: 16px;

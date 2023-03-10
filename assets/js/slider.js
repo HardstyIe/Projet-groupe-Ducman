@@ -3,9 +3,9 @@ const leftButton = document.querySelector('#leftButton')
 const rightButton = document.querySelector('#rightButton')
 const indexHeader = document.querySelector('.slider')
 const imagesTable = [
-  { image: '../../assets/images/slider/2.jpg' },
+  { image: '../../assets/images/restaurant/1.jpg' },
   { image: '../../assets/images/slider/3.jpg' },
-  { image: '../../assets/images/rooms/4.jpg' }
+  { image: '../../assets/images/rooms/7.jpg' }
 ]
 let slides = 0
 
